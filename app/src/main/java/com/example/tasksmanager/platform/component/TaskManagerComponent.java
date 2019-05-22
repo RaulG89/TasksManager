@@ -12,6 +12,7 @@ import javax.inject.Singleton;
 
 import dagger.BindsInstance;
 import dagger.Component;
+import dagger.android.AndroidInjector;
 import dagger.android.support.AndroidSupportInjectionModule;
 
 @Singleton
@@ -22,15 +23,14 @@ import dagger.android.support.AndroidSupportInjectionModule;
                 AndroidSupportInjectionModule.class
         }
 )
-public interface TaskManagerComponent {
+public interface TaskManagerComponent extends AndroidInjector<TaskManagerApp> {
 
         @Component.Builder
         interface Builder {
                 @BindsInstance
-                Builder application(Application application);
+                Builder application(TaskManagerApp application);
                 TaskManagerComponent build();
         }
 
         void inject(TaskManagerApp taskManagerApp);
-        void inject(Fragment fragment);
 }

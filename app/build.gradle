@@ -33,6 +33,8 @@ dependencies {
     implementation 'com.google.dagger:dagger:2.22'
     implementation 'com.google.dagger:dagger-android:2.22'
     implementation 'com.google.dagger:dagger-android-support:2.22'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.22'
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.22'
     //Logger
     implementation 'com.jakewharton.timber:timber:4.7.1'
 
