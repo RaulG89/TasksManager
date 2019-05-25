@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_tasks_list"
+        android:icon="?attr/actionModePasteDrawable"
+        android:title="@string/nav_item_tasks" />
+    <item
+        android:id="@+id/nav_technician"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/nav_item_technicians" />
+    <item
+        android:id="@+id/nav_categories"
+        android:icon="@android:drawable/ic_input_get"
+        android:title="@string/nav_item_categories" />
+</group>
+</menu>

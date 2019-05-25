@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TasksManager</string>
+    <string name="nav_header_content_description">TaskManager</string>
+    <string name="nav_header_title">TasksManager</string>
+    <string name="nav_item_tasks">Tareas</string>
+    <string name="nav_item_technicians">Técnicos</string>
+    <string name="nav_item_categories">Categorías</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
 </resources>

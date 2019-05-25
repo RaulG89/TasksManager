@@ -1,8 +1,6 @@
 package com.example.tasksmanager.platform.component;
 
-import android.app.Application;
-
-import androidx.fragment.app.Fragment;
+/* Created by Raúl Gómez on 22/05/2019 */
 
 import com.example.tasksmanager.TaskManagerApp;
 import com.example.tasksmanager.platform.module.ActivityBindingModule;
@@ -14,6 +12,8 @@ import dagger.BindsInstance;
 import dagger.Component;
 import dagger.android.AndroidInjector;
 import dagger.android.support.AndroidSupportInjectionModule;
+
+/* ApplicationComponent for dependency injection with Dagger2*/
 
 @Singleton
 @Component(
