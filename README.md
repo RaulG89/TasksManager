@@ -1,1 +1,1 @@
-TasksManager
+TasksManager example. Java Android.
